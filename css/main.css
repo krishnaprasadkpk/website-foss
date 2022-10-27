@@ -9639,3 +9639,20 @@ strong {
         justify-self: start;
     }
 }
+
+#gallery-container {
+    max-width: 200rem;
+    margin: 0px auto;
+    padding: 0 2rem 2rem;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -1rem -1rem;
+}
+
+.gallery-item {
+    flex: 1 0 18rem;
+    margin: 1rem;
+    overflow: hidden;
+}
